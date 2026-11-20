@@ -1,0 +1,43 @@
+name: arkan_prop
+description: ARKAN Property & Rental Management System (Clean Architecture + GetX + SQLite).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get: ^4.7.3
+  sqflite: ^2.4.4+2
+  path: ^1.9.0
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.5
+  intl: any
+  url_launcher: ^6.3.1
+  share_plus: ^11.0.0
+  pdf: ^3.13.1
+  printing: ^5.13.4
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.4
+  file_picker: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
